@@ -1,8 +1,8 @@
+
 .rsc-container {
   background: #f5f8fb;
   border-radius: 10px;
   box-shadow: 0 12px 24px 0 rgba(0,0,0,0.15);
-  font-family: monospace;
   overflow: hidden;
   position: relative;
   z-index: 999;
@@ -18,7 +18,7 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: #6e48aa;
+  background: #575195;
   color: #fff;
   display: -webkit-box;
   display: -webkit-flex;

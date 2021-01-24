@@ -11,7 +11,7 @@ class Options extends Component {
           {this.props.options.map((option, index) => {
             return (
               <li key={index} className={Styles.option}>
-                <button onClick={(e) => this.props.clickCallback(e, index, option)} className={Styles.optionElement}>{option}</button>
+                <button type='button' onClick={(e) => this.props.clickCallback(e, index, option)} className={Styles.optionElement}>{option}</button>
               </li>
             )
           })}
