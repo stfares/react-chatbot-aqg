@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Chatbot
 
 To run this whole project, you will need [chatbot-node-wtmk](https://github.com/stfares/chatbot-node-wtmk).
 
