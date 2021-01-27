@@ -219,7 +219,7 @@ class App extends Component {
             floating={floating}
             floatingStyle={floatingStyle}>
             <div className='rsc-header'>
-              <h2 className='rsc-header-title'>Sarcastic Companion</h2>
+              <h2 className='rsc-header-title'>Revision Buddy</h2>
               {floating && (
                 <div
                   style={{cursor: 'pointer'}}
