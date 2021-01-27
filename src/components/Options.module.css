@@ -1,0 +1,32 @@
+.options {
+  margin: 2px 0 12px 0;
+  padding: 0 6px;
+}
+
+.option {
+  animation: Lmuha 0.3s ease forwards;
+  cursor: pointer;
+  display: inline-block;
+  margin: 2px;
+  transform: scale(0);
+}
+
+.optionElement {
+  background: #575195;
+  border: 0;
+  border-radius: 22px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.15);
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+@keyframes Lmuha{
+  100%{
+    -webkit-transform:scale(1);
+    -ms-transform:scale(1);
+    transform:scale(1);
+  }
+}
